@@ -12,7 +12,6 @@ alias ls="ls --color=auto"
 alias f="wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz"
 
 alias v='vim'
-alias vf='vim $(fzf)'
 
 alias c='xclip -sel c'
 
@@ -23,6 +22,12 @@ stty -ixon
 #if [ -z "$TMUX" ]; then
 #    exec tmux
 #fi
+
+function vf() {
+	local file
+	file=$(fzf)
+	[ -n "$file" ] && vim "$file"
+}
 
 function ctrl_f() {
     local dir
