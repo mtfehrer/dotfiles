@@ -7,3 +7,9 @@ set -o vi
 
 #Set ls colors
 alias ls="ls --color=auto"
+
+#Fullscreen alias
+alias f="wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz"
+
+#Disable Ctrl-s and Ctrl-q
+stty -ixon
