@@ -11,6 +11,11 @@ alias ls="ls --color=auto"
 #Fullscreen alias
 alias f="wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz"
 
+alias v='vim'
+alias vf='vim $(fzf)'
+
+alias c='xclip -sel c'
+
 #Disable Ctrl-s and Ctrl-q
 stty -ixon
 
