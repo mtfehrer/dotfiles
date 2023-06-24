@@ -1,20 +1,14 @@
--fix notification bs
 -add brightness dimmer
 -set brightness default to zero
 -update function key
 -learn more vim
--shorten bash prompt
--increase terminal size by default
--use sway instead of i3
 -figure out what this is (before paste): ^[[200~
 -remap caps lock to esc and assign caps lock to something else
 -use kitty and terminal stuff
--backup data (with versioning?)
 
 learning:
--learn display servers
 -learn more vim
--learn tmux
+-learn more tmux
 -see neovim (with extensions)
 -learn nvchad
 -*fun* develop pyglet using new setup (tmux, nvchad)
