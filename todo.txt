@@ -2,7 +2,6 @@
 -set brightness default to zero
 -update function key
 -learn more vim
--figure out what this is (before paste): ^[[200~
 -remap caps lock to esc and assign caps lock to something else
 -use kitty and terminal stuff
 
