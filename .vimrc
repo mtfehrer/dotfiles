@@ -4,6 +4,8 @@ set number
 
 set relativenumber
 
+set tabstop=4
+
 syntax on
 
 "Disable the default Vim startup message.
