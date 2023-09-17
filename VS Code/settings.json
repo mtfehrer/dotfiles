@@ -1,0 +1,35 @@
+{
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 2,
+    "keyboard.dispatch": "keyCode",
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-w>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // switch b/w buffers
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+    ],
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast"
+}
