@@ -5,7 +5,7 @@
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "editor.linkedEditing": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 2,
     "launch": {},
     "[json]": {},
     "editor.minimap.enabled": false,
