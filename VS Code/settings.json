@@ -14,6 +14,7 @@
     "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false,
+    "workbench.startupEditor": "none",
     "update.showReleaseNotes": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
