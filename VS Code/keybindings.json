@@ -60,6 +60,10 @@
     {
       "key": "ctrl+z",
       "command": "workbench.action.toggleZenMode"
+    },
+    {
+      "key": "ctrl+d",
+      "command": "workbench.action.quit"
     }
   ]
   
