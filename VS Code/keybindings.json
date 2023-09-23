@@ -24,7 +24,7 @@
     {
       "command": "workbench.files.action.focusFilesExplorer",
       "key": "ctrl+e",
-      "when": "editorTextFocus"
+      "when": "editorTextFocus && !sideBarVisible"
     },
     {
       "key": "n",
