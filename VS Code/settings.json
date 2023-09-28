@@ -13,12 +13,12 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false,
     "workbench.startupEditor": "none",
     "update.showReleaseNotes": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
     "editor.lineNumbers": "relative",
+    "workbench.activityBar.visible": false,
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
     "vim.useSystemClipboard": true,
@@ -104,34 +104,6 @@
                 "workbench.action.focusRightGroup"
             ]
         },
-        // NICE TO HAVE
-        // {
-        //     "before": [
-        //         "leader",
-        //         "w"
-        //     ],
-        //     "commands": [
-        //         ":w!"
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "leader",
-        //         "q"
-        //     ],
-        //     "commands": [
-        //         ":q!"
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "leader",
-        //         "x"
-        //     ],
-        //     "commands": [
-        //         ":x!"
-        //     ]
-        // },
         {
             "before": [
                 "[",
@@ -160,15 +132,6 @@
                 "editor.action.quickFix"
             ]
         },
-        // {
-        //     "before": [
-        //         "leader",
-        //         "f"
-        //     ],
-        //     "commands": [
-        //         "workbench.action.quickOpen"
-        //     ]
-        // },
         {
             "before": [
                 "leader",
@@ -242,5 +205,5 @@
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    },
+    }
 }
