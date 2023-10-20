@@ -18,6 +18,7 @@
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
     "editor.lineNumbers": "relative",
+    "update.mode": "none",
     "workbench.activityBar.visible": false,
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
