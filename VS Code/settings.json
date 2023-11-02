@@ -28,7 +28,6 @@
         "<C-w>": false,
         "<C-j>": false,
         "<C-p>": false,
-        "<C-d>": false,
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         // NAVIGATION
