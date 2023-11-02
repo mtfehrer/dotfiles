@@ -48,10 +48,5 @@
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
-  },
-  //Misc.
-  {
-    "key": "ctrl+d",
-    "command": "workbench.action.quit"
   }
 ]
