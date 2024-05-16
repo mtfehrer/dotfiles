@@ -31,6 +31,7 @@ export PATH=$PATH:/home/michael/Android/Sdk/emulator
 
 function p() {
 	xreader "$1" 1>/dev/null 2>/dev/null &
+}
 
 function vf() {
 	local file
