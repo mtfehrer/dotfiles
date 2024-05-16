@@ -6,3 +6,6 @@ for file in .*; do
 		ln -s "$PWD/$file" "../$file"
 	fi
 done
+
+ln -s "$PWD/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
+ln -s "$PWD/vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
