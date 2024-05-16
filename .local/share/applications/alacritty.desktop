@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Alacritty
-Comment=Alacritty Terminal Emulator
-Exec=alacritty
-Icon=/home/michael/Pictures/alacritty.png
-Terminal=false
-Categories=System;TerminalEmulator;
