@@ -5,6 +5,7 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 #Vim bindings
 set -o vi
 
+
 #Set ls colors
 alias ls="ls --color=auto"
 
@@ -22,6 +23,14 @@ stty -ixon
 #if [ -z "$TMUX" ]; then
 #    exec tmux
 #fi
+
+#BTC Stuff
+ANDROID_HOME='/home/michael/Android/Sdk'
+export PATH=$PATH:/home/michael/Android/Sdk/platform-tools
+export PATH=$PATH:/home/michael/Android/Sdk/emulator
+
+function p() {
+	xreader "$1" 1>/dev/null 2>/dev/null &
 
 function vf() {
 	local file
@@ -41,3 +50,11 @@ function ctrl_f() {
         fi
     fi
 }
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
