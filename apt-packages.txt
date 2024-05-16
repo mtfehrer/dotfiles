@@ -1,0 +1,6 @@
+python3
+docker
+code
+tldr
+tree
+vim-gtk
