@@ -6,6 +6,12 @@ set relativenumber
 
 set tabstop=4
 
+set shiftwidth=4
+
+set smartindent
+
+colorscheme evening
+
 syntax on
 
 "Disable the default Vim startup message.
