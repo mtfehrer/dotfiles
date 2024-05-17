@@ -16,6 +16,9 @@ alias v='vim'
 
 alias c='xclip -sel c'
 
+#Remap Caps-Lock to Esc
+setxkbmap -option caps:escape
+
 #Disable Ctrl-s and Ctrl-q
 stty -ixon
 
