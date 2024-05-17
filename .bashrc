@@ -42,7 +42,7 @@ function vf() {
 function ctrl_f() {
     local dir
     IFS=$'\n'
-    dir=$(find $HOME -type d | fzf --preview 'tree -C {} | head -200')
+    dir=$(find $HOME -maxdepth 3 -type d | fzf --preview 'tree -C {} | head -200')
     if [ $? -eq 0 ]; then
         if [ -n "$TMUX" ]; then
             cd $dir
