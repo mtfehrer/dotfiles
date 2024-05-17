@@ -9,3 +9,5 @@ done
 
 ln -s "$PWD/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 ln -s "$PWD/vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
