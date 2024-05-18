@@ -50,7 +50,7 @@ function ctrl_f() {
         if [ -n "$TMUX" ]; then
             cd $dir
         else
-            tmux new-session -c "$dir"
+            f && tmux new-session -c "$dir"
         fi
     fi
 }
