@@ -1,20 +1,20 @@
 [
     //Terminal Navigation
-    {
-        "key": "ctrl+shift+a",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+n",
-        "command": "workbench.action.terminal.new",
-        "when": "terminalFocus"
-    },
+    // {
+    //     "key": "ctrl+shift+a",
+    //     "command": "workbench.action.terminal.focusNext",
+    //     "when": "terminalFocus"
+    // },
+    // {
+    //     "key": "ctrl+shift+b",
+    //     "command": "workbench.action.terminal.focusPrevious",
+    //     "when": "terminalFocus"
+    // },
+    // {
+    //     "key": "ctrl+shift+n",
+    //     "command": "workbench.action.terminal.new",
+    //     "when": "terminalFocus"
+    // },
     // FILE TREE
     {
         "command": "workbench.action.toggleSidebarVisibility",
@@ -48,5 +48,5 @@
         "command": "deleteFile",
         "key": "d",
         "when": "filesExplorerFocus && !inputFocus"
-    },
+    }
 ]
