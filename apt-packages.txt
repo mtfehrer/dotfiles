@@ -1,8 +1,12 @@
 python3
 docker.io
+docker-compose-plugin
+tmux
 code
 tldr
+fzf
 tree
 vim-gtk
 htop
 curl
+ncdu

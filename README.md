@@ -9,4 +9,5 @@ Installation Checklist
   - Install apt packages
   - Install Redshift Applet, VS Code, Discord
   - Setup SSH keys
+  - Set terminal colors (white text, black background)
   - Set black background

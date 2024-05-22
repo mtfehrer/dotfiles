@@ -12,7 +12,7 @@ set expandtab
 
 set smartindent
 
-colorscheme evening
+colorscheme elflord
 
 syntax on
 
