@@ -30,12 +30,6 @@ function p() {
 	xreader "$1" 1>/dev/null 2>/dev/null &
 }
 
-function vf() {
-	local file
-	file=$(fzf)
-	[ -n "$file" ] && vim "$file"
-}
-
 function ctrl_f() {
     local dir
     IFS=$'\n'
