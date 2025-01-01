@@ -26,11 +26,6 @@ stty -ixon
 #    exec tmux
 #fi
 
-#BTC Stuff
-ANDROID_HOME='/home/michael/Android/Sdk'
-export PATH=$PATH:/home/michael/Android/Sdk/platform-tools
-export PATH=$PATH:/home/michael/Android/Sdk/emulator
-
 function p() {
 	xreader "$1" 1>/dev/null 2>/dev/null &
 }
