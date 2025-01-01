@@ -13,6 +13,7 @@ for file in .*; do
 	fi
 done
 
+#Create VS Code symlinks
 ln -s "$PWD/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 ln -s "$PWD/vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 
