@@ -12,3 +12,4 @@ Installation Checklist:
 
 Notes:
   - .inputrc customizes key-bindings for programs that use GNU Readline including the terminal
+  - Getting terminal to open in full screen with tmux is too difficult
