@@ -1,6 +1,6 @@
 #!/bin/bash
 #Update our apt package registry and upgrade current packages
-apt update && apt upgrade
+apt update && apt upgrade -y
 
 #Install all packages in packages.txt
 sudo xargs -a packages.txt apt install -y
