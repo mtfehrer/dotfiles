@@ -3,7 +3,7 @@
 apt update && apt upgrade -y
 
 #Install all packages in packages.txt
-sudo xargs -a packages.txt apt install -y
+sudo -s xargs -a packages.txt apt install -y
 
 #Create symlinks for all files in this directory
 for file in .*; do
