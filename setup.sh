@@ -5,8 +5,7 @@ apt update && apt upgrade
 #Install all packages in packages.txt
 sudo xargs -a packages.txt apt install -y
 
-
-
+#Create symlinks for all files in this directory
 for file in .*; do
 	if [ -f "$file" ]; then
 		ln -s "$PWD/$file" "../$file"
