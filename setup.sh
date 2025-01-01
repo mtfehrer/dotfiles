@@ -5,7 +5,7 @@ apt update && apt upgrade
 #Install all packages in packages.txt
 sudo xargs -a packages.txt apt install -y
 
-git clone https://github.com/tmux-plugins/tmux-yank ~/Tools/
+
 
 for file in .*; do
 	if [ -f "$file" ]; then
@@ -16,7 +16,9 @@ done
 ln -s "$PWD/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 ln -s "$PWD/vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 
+#Download tmux plugin manager and tmux-yank plugin
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tmux-yank ~/Tools/
 
 #Add docker compose plugin
 mkdir -p ~/.docker/cli-plugins/
