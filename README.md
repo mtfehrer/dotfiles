@@ -9,6 +9,8 @@ Installation Checklist:
   - Setup SSH keys
   - Set terminal colors (white text, black background)
   - Set black background
+  - To remap caps-lock to esc:
+    - Open Keyboard application, click layouts, click options, click caps-lock behavior, click `Make Caps Lock an additional Esc`
 
 Notes:
   - .inputrc customizes key-bindings for programs that use GNU Readline including the terminal
