@@ -18,6 +18,7 @@ ln -s "$PWD/vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+#Add docker compose plugin
 mkdir -p ~/.docker/cli-plugins/
 curl -SL https://github.com/docker/compose/releases/download/v2.27.0/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
 chmod +x ~/.docker/cli-plugins/docker-compose
