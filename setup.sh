@@ -26,4 +26,4 @@ curl -SL https://github.com/docker/compose/releases/download/v2.27.0/docker-comp
 chmod +x ~/.docker/cli-plugins/docker-compose
 
 #Add current user to docker group so we can run docker commands without sudo, and reload docker group
-sudo usermod -aG docker $USER && newgrp docker
+sudo -s usermod -aG docker $USER && newgrp docker
