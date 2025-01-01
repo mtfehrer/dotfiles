@@ -21,11 +21,6 @@ setxkbmap -option caps:escape
 #Disable Ctrl-s and Ctrl-q
 stty -ixon
 
-#Automatically open tmux
-#if [ -z "$TMUX" ]; then
-#    exec tmux
-#fi
-
 function p() {
 	xreader "$1" 1>/dev/null 2>/dev/null &
 }
