@@ -5,6 +5,9 @@
     "editor.suggest.insertMode": "replace",
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "comments": "#9c9c9c"
+    },
     "breadcrumbs.enabled": false,
     "workbench.startupEditor": "none",
     "update.showReleaseNotes": false,
