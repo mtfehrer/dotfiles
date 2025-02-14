@@ -11,6 +11,7 @@ Installation Checklist:
   - Set black background
   - To remap caps-lock to esc:
     - Open Keyboard application, click layouts, click options, click caps-lock behavior, click `Make Caps Lock an additional Esc`
+  - add `127.0.0.1       www.sublimetext.com` to /etc/hosts to prevent Sublime Text update notifications
 
 Notes:
   - .inputrc customizes key-bindings for programs that use GNU Readline including the terminal
